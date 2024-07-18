@@ -1,0 +1,33 @@
+.landing-page-container {
+    padding: 20px;
+  }
+  
+  .HeaderTitleContainer {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .chart-container,
+  .table-container {
+    margin-bottom: 40px;
+  }
+
+  .title{
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    font-size: 30px  ;
+  }
+  
+  @media (max-width: 768px) {
+    .chart-container,
+    .table-container {
+      width: 100%;
+      margin-bottom: 20px;
+    }
+    .landing-page-container{
+      width: 90%;
+      margin: auto
+    }
+  }
+
+  
